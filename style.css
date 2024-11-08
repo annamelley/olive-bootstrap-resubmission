@@ -1,0 +1,35 @@
+/* custom css /*   -- /* ADDYOUR CUSTOM CSS TO THIS FILE BELOW */
+body {
+    font-family: Georgia, serif;
+    font-size: 100%;
+    line-height: 175%;
+    margin: 0;
+    padding: 0 15%;
+    background-image: url("images/greenbackground.jpeg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ul {
+    list-style: none; /* Remove default bullets */
+    padding-left: 0;  /* Optional: Remove left padding */
+}
+li {
+    position: relative;
+    padding-left: 30px; /* Space for custom bullet */
+}
+li::before {
+    content: '';
+    background-image: url('images/olive.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 0; 
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block; 
+    margin-right: 5px; 
+}
