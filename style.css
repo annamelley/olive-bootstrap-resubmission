@@ -12,8 +12,8 @@ body {
     background-size: cover;
 }
 ul {
-    list-style: none; /* Remove default bullets */
-    padding-left: 0;  /* Optional: Remove left padding */
+    list-style: none; /* bullets */
+    padding-left: 0;  /* Remove left padding */
 }
 li {
     position: relative;
